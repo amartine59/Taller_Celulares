@@ -42,8 +42,8 @@ public class Reportes extends AppCompatActivity {
     }
     public void reporte_4(){
         int cantidad_apple_negro=0;
-        for (int i = 0; i < celulares.size(); i++) {
-            if ((celulares.get(i).getMarca().equals("Apple"))&&(celulares.get(i).getColor().equals("Negro"))){
+        for (int j = 0; j < celulares.size(); j++) {
+            if ((celulares.get(j).getMarca().equals("Apple"))&&(celulares.get(j).getColor().equals("Negro"))){
                 cantidad_apple_negro++;
             }
         }
@@ -53,9 +53,9 @@ public class Reportes extends AppCompatActivity {
 
     public void reporte_5(){
         double promedio=0,sum=0,cant=0;
-        for (int i = 0; i < celulares.size(); i++) {
-            if(celulares.get(i).getMarca().equals("Nokia")){
-                sum =+ Double.parseDouble(celulares.get(i).getPrecio());
+        for (int j = 0; j < celulares.size(); j++) {
+            if(celulares.get(j).getMarca().equals("Nokia")){
+                sum =+ Double.parseDouble(celulares.get(j).getPrecio());
                 cant++;
             }
         }
