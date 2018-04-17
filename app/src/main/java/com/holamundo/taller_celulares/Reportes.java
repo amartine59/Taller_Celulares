@@ -50,4 +50,17 @@ public class Reportes extends AppCompatActivity {
         Toast.makeText(this,getResources().getString(R.string.reporte_4)+": "+cantidad_apple_negro,Toast.LENGTH_SHORT).show();
         return cantidad_apple_negro;
     }
+
+    public double reporte_5(){
+        double promedio=0,sum=0,cant=0;
+        for (int i = 0; i < celulares.size(); i++) {
+            if(celulares.get(i).getMarca()==getResources().getString(R.string.nokia)){
+                sum =+ Double.parseDouble(celulares.get(i).getPrecio());
+                cant++;
+            }
+        }
+        promedio = sum/cant;
+        Toast.makeText(this,getResources().getString(R.string.reporte_5)+": "+promedio,Toast.LENGTH_SHORT).show();
+        return promedio;
+    }
 }
