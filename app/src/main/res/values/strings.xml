@@ -37,4 +37,5 @@
     <string name="borrar">Borrar</string>
     <string name="error_vacio">Debe ingresar precio</string>
     <string name="error_negativos">Ingrese valores mayores a cero</string>
+    <string name="guardado">Guardado!</string>
 </resources>

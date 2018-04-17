@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class Registro_Celular extends AppCompatActivity {
     private Spinner spnMarca,spnColor;
@@ -32,7 +33,7 @@ public class Registro_Celular extends AppCompatActivity {
         celular_actual.GuardarCelular();
 
     }
-
+    public void limpiar(){precio.setText("");}
     public void Borrar(View v){
         precio.setText("");
     }
@@ -61,6 +62,8 @@ public class Registro_Celular extends AppCompatActivity {
             pre = precio.getText().toString();
 
             almacenar_celular(marca,color,pre);
+            Toast.makeText(this,getResources().getString(R.string.guardado),Toast.LENGTH_SHORT).show();
+            limpiar();
         }
     }
 

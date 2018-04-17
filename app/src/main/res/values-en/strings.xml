@@ -20,4 +20,5 @@
     <string name="borrar">Clear</string>
     <string name="error_vacio">You must type a price</string>
     <string name="error_negativos">The price must be greater than zero</string>
+    <string name="guardado">Saved!</string>
 </resources>
