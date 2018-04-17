@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller_Celulares</string>
+    <string name="menu_principal">Main Menu</string>
+    <string name="registro_celular">Register</string>
+    <string name="listado_celular">Smartphone list</string>
+    <string name="reportes">Report</string>
+    <string name="reporte_4">Report 4</string>
+    <string name="reporte_5">Report 5</string>
+    <string name="marca">Brand</string>
+    <string name="color">Color</string>
+    <string name="precio">Price</string>
+    <string name="apple">Apple</string>
+    <string name="nokia">Nokia</string>
+    <string name="negro">Black</string>
+    <string name="blanco">White</string>
+    <string name="purpura">Purple</string>
+    <string name="numero">ID</string>
+    <string name="guardar">Save</string>
+    <string name="borrar">Clear</string>
+    <string name="error_vacio">You must type a price</string>
+    <string name="error_negativos">The price must be greater than zero</string>
+</resources>
