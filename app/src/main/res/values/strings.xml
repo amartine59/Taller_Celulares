@@ -4,8 +4,17 @@
     <string name="registro_celular">Registro</string>
     <string name="listado_celular">Listado de celulares</string>
     <string name="reportes">Reportes</string>
+    <string-array name="op_menup">
+        <item>@string/registro_celular</item>
+        <item>@string/listado_celular</item>
+        <item>@string/reportes</item>
+    </string-array>
     <string name="reporte_4">Reporte 4</string>
     <string name="reporte_5">Reporte 5</string>
+    <string-array name="op_reportes">
+        <item>@string/reporte_4</item>
+        <item>@string/reporte_5</item>
+    </string-array>
     <string name="marca">Marca</string>
     <string name="color">Color</string>
     <string name="precio">Precio</string>
@@ -18,6 +27,7 @@
     <string name="negro">Negro</string>
     <string name="blanco">Blanco</string>
     <string name="purpura">Purpura</string>
+    <string name="numero">No.</string>
     <string-array name="op_color">
         <item>@string/negro</item>
         <item>@string/blanco</item>
