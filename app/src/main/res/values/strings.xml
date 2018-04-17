@@ -33,4 +33,6 @@
         <item>@string/blanco</item>
         <item>@string/purpura</item>
     </string-array>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
 </resources>
