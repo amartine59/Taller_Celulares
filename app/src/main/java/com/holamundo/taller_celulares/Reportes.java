@@ -33,34 +33,34 @@ public class Reportes extends AppCompatActivity {
                         reporte_4();
                         break;
                     case 1:
-
+                        reporte_5();
                         break;
                 }
             }
         });
 
     }
-    public int reporte_4(){
+    public void reporte_4(){
         int cantidad_apple_negro=0;
         for (int i = 0; i < celulares.size(); i++) {
-            if ((celulares.get(i).getMarca()==getResources().getString(R.string.apple))&&(celulares.get(i).getColor()==getResources().getString(R.string.negro))){
+            if ((celulares.get(i).getMarca().equals("Apple"))&&(celulares.get(i).getColor().equals("Negro"))){
                 cantidad_apple_negro++;
             }
         }
         Toast.makeText(this,getResources().getString(R.string.reporte_4)+": "+cantidad_apple_negro,Toast.LENGTH_SHORT).show();
-        return cantidad_apple_negro;
+
     }
 
-    public double reporte_5(){
+    public void reporte_5(){
         double promedio=0,sum=0,cant=0;
         for (int i = 0; i < celulares.size(); i++) {
-            if(celulares.get(i).getMarca()==getResources().getString(R.string.nokia)){
+            if(celulares.get(i).getMarca().equals("Nokia")){
                 sum =+ Double.parseDouble(celulares.get(i).getPrecio());
                 cant++;
             }
         }
         promedio = sum/cant;
         Toast.makeText(this,getResources().getString(R.string.reporte_5)+": "+promedio,Toast.LENGTH_SHORT).show();
-        return promedio;
+
     }
 }
