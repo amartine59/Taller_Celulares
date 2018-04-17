@@ -53,9 +53,9 @@ public class Reportes extends AppCompatActivity {
 
     public void reporte_5(){
         double promedio=0,sum=0,cant=0;
-        for (int j = 0; j < celulares.size(); j++) {
-            if(celulares.get(j).getMarca().equals("Nokia")){
-                sum =+ Double.parseDouble(celulares.get(j).getPrecio());
+        for (int k = 0; k < celulares.size(); k++) {
+            if(celulares.get(k).getMarca().equals("Nokia")){
+                sum = sum + Double.parseDouble(celulares.get(k).getPrecio());
                 cant++;
             }
         }
